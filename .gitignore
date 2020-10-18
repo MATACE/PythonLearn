@@ -1,0 +1,6 @@
+# IDE Config file
+.idea
+.vscode
+
+# Window Python sdk directory
+__pycache__
