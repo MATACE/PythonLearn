@@ -1,5 +1,5 @@
-#!/bin/bash
-# -*- coding: UTF-8 -*-
+#!/usr/bin/python
+# coding=utf-8
 
 def show_p():
     print("This is show p")
@@ -27,6 +27,26 @@ def my_add():
     j = input()
     print(int(i) + int(j))
 
+def my_if():
+    i = input()
+    if (int(i) > 0):
+        print(i + " > 0")
+    elif (int(i) == 0):
+        print(i + " = 0")
+    elif (int(i) < 0):
+        print(i + " < 0")
+    else:
+        print("Can't know the i value")
+
+def my_while():
+    while True:
+        i = input()
+        if (int(i) == 0):
+            print("Stop")
+            break;
+        else:
+            continue;
+
 def main():
-    my_add()
+    my_while()
 

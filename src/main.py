@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/python
+# coding=utf-8
+
 #Import module
 from func import func
 
