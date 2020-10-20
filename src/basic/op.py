@@ -46,7 +46,9 @@ def my_while():
             break;
         else:
             continue;
+def hell():
+    print("Hello")
 
 def main():
-    my_while()
+    hell()
 
