@@ -2,5 +2,7 @@
 .idea
 .vscode
 
+
 # Window Python sdk directory
 __pycache__
+*.pyc

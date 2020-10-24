@@ -49,6 +49,22 @@ def my_while():
 def hell():
     print("Hello")
 
+def my_for():
+    tol_num = 0;
+    for tol_num in range(5):
+        print("This is " + str(tol_num))
+
+def my_for_while():
+    tol_num = 0;
+    while tol_num < 5:
+        print("This is num: " + str(tol_num))
+        tol_num += 1
+
+def for_range():
+    tol_num = 0;
+    for tol_num in range(1, 12, 2):
+        print("This is nu: " + str(tol_num))
+
 def main():
-    hell()
+    for_range()
 

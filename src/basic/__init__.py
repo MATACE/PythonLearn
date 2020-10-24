@@ -1,3 +1,3 @@
-__all__ = ['op']
+__all__ = ['op', 'my_func', 'data']
 
 from . import op
