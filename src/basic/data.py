@@ -1,6 +1,9 @@
 #!/bin/usr/python
 # coding=utf-8
 
+import logging
+
+
 def y_run():
     yun = {"greed":32, "good": 56}
     for i in yun.keys():
@@ -21,4 +24,4 @@ def show_name(name):
 def run():
     name = "fpsxyz"
     if name.endswith("z"):
-        print("OK")
+        logging.info("OK")
