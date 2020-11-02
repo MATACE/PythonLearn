@@ -2,6 +2,7 @@
 # coding=utf-8
 
 import os
+import shutil
 
 from src.clear.path_union import PathUnion
 

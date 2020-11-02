@@ -8,6 +8,8 @@ from src.basic import op
 from src.basic import my_func
 from src.basic import data
 from src.log   import LogOp
+from src.web.web_op import WebOp
+from src.excel.excel_op import ExcelOp
 
 def func():
     # op.main()
@@ -18,4 +20,8 @@ def func():
     log_op = LogOp()
     log_op.config_log(logging.DEBUG)
 
-    data.run()
+    excel_op = ExcelOp()
+    # excel_op.open()
+    excel_op.create_grap()
+
+    # data.run()
