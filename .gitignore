@@ -1,8 +1,8 @@
 # IDE Config file
 .idea
-.vscode
-
+package_demo.egg-info
+dist/
+#.vscode
 
 # Window Python sdk directory
 __pycache__
-*.pyc

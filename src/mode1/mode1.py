@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # coding=utf-8
 
-from ..basic import op
-
+import logging
 def mode1():
-    op.hell()
+    logging.info("This is mode1")
